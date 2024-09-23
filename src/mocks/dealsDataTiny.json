@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "issuer_name": "TechCorp Inc.",
+    "deal_name": "TechCorp Acquisition",
+    "bloomberg_id": "TC12345",
+    "total": 50000000.5,
+    "industry": "Technology",
+    "status": "Active",
+    "analysts": ["John Doe", "Jane Smith"],
+    "doc_count": 12,
+    "custom_deal_identifiers": ["TCAQ2023", "TC-001"]
+  },
+  {
+    "id": 2,
+    "issuer_name": "GreenEnergy LLC",
+    "deal_name": "GreenEnergy Expansion",
+    "bloomberg_id": "GE54321",
+    "total": 25000000.0,
+    "industry": "Energy",
+    "status": "Pending",
+    "analysts": ["Mary Johnson", "Bill Evans"],
+    "doc_count": 8,
+    "custom_deal_identifiers": ["GEXP2024", "GE-002"]
+  },
+  {
+    "id": 3,
+    "issuer_name": "HealthPlus Inc.",
+    "deal_name": "HealthPlus Merger",
+    "bloomberg_id": "HP67890",
+    "total": 120000000.75,
+    "industry": "Healthcare",
+    "status": "Completed",
+    "analysts": ["Emily Clark", "Michael Lee"],
+    "doc_count": 20,
+    "custom_deal_identifiers": ["HPMR2023", "HP-003"]
+  },
+  {
+    "id": 4,
+    "issuer_name": "FinTech Solutions",
+    "deal_name": "FinTech Investment",
+    "bloomberg_id": "FT56789",
+    "total": 75000000.0,
+    "industry": "Finance",
+    "status": "Active",
+    "analysts": ["David Wilson", "Sara Parker"],
+    "doc_count": 15,
+    "custom_deal_identifiers": ["FTINV2023", "FT-004"]
+  }
+]

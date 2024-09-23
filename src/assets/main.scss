@@ -1,0 +1,36 @@
+@import './base.scss';
+@import './grids.scss';
+
+strong {
+  font-weight: bold;
+}
+
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #eaeaea;
+  }
+}
+
+.container-view {
+  display: flex;
+  position: relative;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+  .sm-absolute {
+    top: 0;
+    position: absolute;
+  }
+}

@@ -1,0 +1,43 @@
+.cols-1,
+.cols-2,
+.cols-3,
+.cols-4,
+.cols-5,
+.cols-6,
+.cols-7,
+.cols-8,
+.cols-9,
+.cols-10,
+.cols-11,
+.cols-12 {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.cols-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.cols-4 {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+.cols-8 {
+  flex: 0 0 66.6666666667%;
+  max-width: 66.6666666667%;
+}
+.cols-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.cols-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+@media (max-width: 575.98px) {
+  .cols-sm-12 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
